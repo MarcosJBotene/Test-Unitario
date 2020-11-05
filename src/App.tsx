@@ -1,8 +1,10 @@
 import React from "react";
-import Container from "./pages/components/Container";
 
+import Container from "./pages/components/Container";
 import { AvatarImage } from "./pages/components/UserProfile/AvatarUser/avatarUser";
 import { UserInfo } from "./pages/components/UserProfile/UserInfo/userInfo";
+
+import "./styles/global.css";
 
 export default function App() {
   const ImageURL =
