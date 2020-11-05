@@ -1,6 +1,6 @@
 import React from "react";
 
-import "./styles.css";
+import "./style.css";
 
 const Container: React.FC = props => {
   return <div id="container">{props.children}</div>;
